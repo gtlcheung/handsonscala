@@ -1,3 +1,5 @@
+import $file.FloodFill, FloodFill._
+
 floodFill(
   src = "Raw.jpg", dest = "Filled.jpg", startX = 180, startY = 90,
   compareColors = { (a: java.awt.Color, b: java.awt.Color) =>
